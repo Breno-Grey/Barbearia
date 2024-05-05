@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body, html{
+    background-color: #2e3147;
+}
+
+div#imagem{
+    width: 100vw;
+    height: 250px;
+    background-image: url(imagens/pexels-nickoloui-1319460.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+div#logo{ 
+    position: relative;
+    top: -50px;
+    left: 35px;
+    width: 150px;
+    height: 150px;
+    background-image: url(imagens/icon-tablet.png);
+    background-size: cover;
+    border-radius: 50%;
+}
+div#logo > h1{
+    position: absolute;
+    left: 170px;
+    top: 70px;
+    width: 300px;
+}
+ol{
+    
+    display: flex;
+    
+    list-style-type: none;
+    margin-top: -20px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+ol > li{
+    margin-left: 10px;
+    padding: 15px 20px;
+    border-radius: 15px;
+    background-color: #12141d8e;
+    cursor: pointer;
+}
+ol > li:hover{
+    background-color: #3f455e8e;
+}
+ol li > span.material-symbols-outlined{
+    font-size: 30px;
+}
+div#agendamento{
+    position: relative;
+    background-color: #545a81;
+    width: 90%;
+    margin: auto;
+    padding:10px 0px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    cursor: pointer;
+}
+div#agendamento > h2 > span.material-symbols-outlined {
+    position: relative;
+    top: 4px;
+    left: 100px;
+}
+h3{
+    margin: 30px 25px;    
+}
+section{
+    display: flex;
+    
+}
+div.icones{
+    
+    background-color: #545a81;
+    margin: auto;
+    width: 230px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.562);
+    cursor: pointer;
+}
+h5{ position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 3em;
+    
+}
+h3{
+    font-size: 2em;
+}
+p{  
+     font-size: 1.4em;
+    padding-left: 25px;
+    margin: 25px 0px;
+}
+p > .material-symbols-outlined{
+    color: yellow;
+}
